@@ -7,7 +7,7 @@ const ProxyManager = require('./proxy-manager');
 const { SocksProxyAgent } = require('socks-proxy-agent');
 
 // Load environment variables
-require('dotenv').config({ path: path.resolve(__dirname, '../../.env') });
+require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
 
 class SteamValidator {
   constructor(config) {

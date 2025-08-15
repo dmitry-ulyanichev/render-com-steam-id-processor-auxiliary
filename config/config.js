@@ -3,7 +3,7 @@ const path = require('path');
 const fs = require('fs-extra');
 
 // Load environment variables
-require('dotenv').config({ path: path.resolve(__dirname, '../../.env') });
+require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
 
 console.log('🔍 [DEBUG] Environment variables loaded');
 console.log('🔍 [DEBUG] BACKOFF_SEQUENCE_MINUTES env var:', process.env.BACKOFF_SEQUENCE_MINUTES);

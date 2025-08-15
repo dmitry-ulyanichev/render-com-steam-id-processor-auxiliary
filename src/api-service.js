@@ -4,7 +4,7 @@ const path = require('path');
 const logger = require('./utils/logger');
 
 // Load environment variables
-require('dotenv').config({ path: path.resolve(__dirname, '../../.env') });
+require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
 
 class ApiService {
   constructor(config) {
