@@ -44,7 +44,7 @@ const CONFIG = {
   LOG_DIR: path.join(parentDir, 'logs'),
   
   // API settings
-  API_ENDPOINT: 'https://kuchababok.online/links/api/add-link/',
+  API_ENDPOINT: 'https://kuchababok.online/en/links/api/add-link/',
   
   // NEW: API Server settings
   API_PORT: parseInt(process.env.STEAM_PROCESSOR_API_PORT) || 3002,
